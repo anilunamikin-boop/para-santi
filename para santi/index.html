@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d10">
+  <meta name="description" content="Un pequeño universo hecho especialmente para vos.">
+  <title>Para vos, gil ♡ — Chari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="intro-active">
+  <div class="grain" aria-hidden="true"></div>
+  <div class="hearts-layer" id="hearts-layer" aria-hidden="true"></div>
+
+  <section class="intro-screen" id="intro" aria-labelledby="intro-title">
+    <div class="intro-orbit" aria-hidden="true"><span>♡</span></div>
+    <p class="eyebrow">UNA PEQUEÑA COSA (PONELE) HECHA CON AMOR</p>
+    <h1 id="intro-title">PARA VOS <span>♡</span></h1>
+    <p class="intro-copy">Hice esto especialmente para vos..(me re costo pedazo de boludo, valoralo).</p>
+    <button class="button button-primary intro-button" id="enter-button" type="button">ENTRAR <span aria-hidden="true">♡</span></button>
+    <p class="intro-footnote">con amor, Chari</p>
+  </section>
+
+  <main id="main-content" hidden>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Volver al inicio">C<span>♡</span></a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#nosotros">nosotros</a><a href="#recuerdos">recuerdos</a><a href="#musica">música</a><a href="#carta">la carta</a>
+      </nav>
+      <span class="header-note">HECHO PARA MI TONTO <span>✳</span></span>
+    </header>
+
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> UNA HISTORIA EN PLAY</p>
+        <h1>CHARI <span class="cross">×</span><br><em id="boyfriend-name">santi</em></h1>
+        <p class="hero-subtitle">our little mogolic universe</p>
+        <p class="hero-quote">“De todas las casualidades, mi favorita siempre vas a ser vos mi amorch.”</p>
+        <a class="text-link" href="#nosotros">CONOCÉ NUESTRO UNIVERSO MOGOLICO <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art reveal" aria-label="Ilustración decorativa de dos corazones unidos">
+        <div class="hero-disc"><div class="disc-center">C<span>♡</span></div></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="hero-spark spark-one">✳</span><span class="hero-spark spark-two">✦</span>
+        <p class="art-caption">LADO A — VOS Y YO</p>
+      </div>
+      <div class="hero-bottom"><span>HECHO CON MUCHO AMOR</span><span>VOL. 01 — INFINITO</span></div>
+    </section>
+
+    <section class="content-section section-shell" id="nosotros">
+      <div class="section-heading reveal"><p class="eyebrow">01 / NOSOTROS</p><h2>El tiempo con vos<br><em>se siente distinto.</em></h2><p class="section-intro">Y desde aquel día, cada segundo tiene un poquito más de sentido.</p></div>
+      <div class="counter-card reveal" aria-label="Tiempo que llevamos juntos">
+        <div class="counter-top"><span>DESDE QUE EMPEZÓ LO NUESTRO</span><span class="live-indicator"><i></i> CONTANDO</span></div>
+        <div class="counter-grid">
+          <div class="time-unit"><strong id="days">—</strong><span>DÍAS</span></div><b class="counter-separator">:</b>
+          <div class="time-unit"><strong id="hours">—</strong><span>HORAS</span></div><b class="counter-separator">:</b>
+          <div class="time-unit"><strong id="minutes">—</strong><span>MINUTOS</span></div><b class="counter-separator">:</b>
+          <div class="time-unit"><strong id="seconds">—</strong><span>SEGUNDOS</span></div>
+        </div>
+        <p class="counter-date">15 · 07 · 2026 <span>♡</span> Y SUMANDO</p>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="recuerdos">
+      <div class="section-heading section-heading-row reveal"><div><p class="eyebrow">02 / NUESTROS RECUERDOS</p><h2>Pequeños momentos,<br><em>gigante lugar.</em></h2></div><p class="section-intro">Un rollito de escenas que quiero guardar para siempre.</p></div>
+      <div class="memory-grid" id="memory-grid" aria-label="Galería de nuestros recuerdos"></div>
+      <p class="edit-hint">✳ Para sumar fotos, guardalas en <strong>imagenes/</strong> y agregá sus nombres en la lista de script.js.</p>
+    </section>
+
+    <section class="content-section music-section" id="musica">
+      <div class="section-shell">
+        <div class="section-heading section-heading-row reveal"><div><p class="eyebrow">03 / NUESTRA MÚSICA</p><h2>La banda sonora<br><em>de lo nuestro.</em></h2></div><span class="album-stamp">SIDE A<br>♡ CHARI</span></div>
+        <div class="song-grid" id="song-grid"></div>
+        <p class="edit-hint">Los botones abren el enlace que agregues; no hay reproducción automática ni descargas.</p>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="carta">
+      <div class="section-heading reveal"><p class="eyebrow">04 / ALGO QUE QUERÍA DECIRTE</p><h2>Una carta <em>para vos 💌</em></h2></div>
+      <article class="letter-card reveal"> 
+        <div class="letter-top"><span>PARA: MI PERSONA FAVORITA</span><span>CON TODO MI AMOR, SIEMPRE</span></div>
+        <div class="letter-body"><span class="letter-heart" aria-hidden="true">♡</span><p>Mi amor,</p><p class="letter-placeholder">Amor, te amo taaanto. Gracias por ser la persona que sos, por tu amor, tu ternura y por tus besos cuando los necesito. Te adoro y me hacés sentir la persona más afortunada del mundo, gracias posta por estar en mi vida y elegirme como tu novia.</p><p class="letter-signoff">Te quiero en todas mis versiones,<br><em>Chari</em></p></div>
+        <span class="letter-seal" aria-hidden="true">C♡</span>
+      </article>
+    </section>
+
+    <section class="content-section video-section" id="video">
+      <div class="section-shell">
+        <div class="section-heading reveal"><p class="eyebrow">05 / UN RATITO PARA NOSOTROS</p><h2>Hay algo que<br><em>quiero que veas...</em></h2></div>
+        <div class="video-frame reveal" id="video-frame">
+          <div class="video-placeholder" id="video-placeholder"><span class="play-icon" aria-hidden="true">▶</span><p>Este espacio espera nuestro video especial (mentira, lo encontré e youtube jeje).</p><small>PEGÁ EL ID DEL VIDEO EN script.js</small></div>
+          <iframe id="youtube-player" title="Video especial para nosotros" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen hidden></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="razones">
+      <div class="section-heading reveal"><p class="eyebrow">06 / COSAS QUE AMO DE VOS</p><h2>Podría hacer una lista<br><em>que no termine nunca.</em></h2></div>
+      <div class="reasons-grid" id="reasons-grid"></div>
+    </section>
+
+    <section class="content-section secret-section section-shell" id="secretos">
+      <div class="section-heading reveal"><p class="eyebrow">07 / SOLO PARA VOS</p><h2>Un botón para cada<br><em>tipo de día.</em></h2><p class="section-intro">Elegí el que necesites. Yo estoy acá.</p></div>
+      <div class="secret-buttons" id="secret-buttons"></div>
+    </section>
+
+    <footer class="finale section-shell reveal" id="final">
+      <span class="finale-heart" aria-hidden="true">♡</span><p class="eyebrow">FIN DEL LADO A · EL LADO B SIGUE CON VOS</p>
+      <h2>Gracias por ser<br>parte de mi vida <span>♡</span></h2>
+      <p>Esto es solamente una pequeña parte de todo lo que quiero vivir con vos.</p>
+      <div class="signature">— Chari ♡</div>
+      <span class="footer-note">HECHO A MANO, CON TODO MI AMOR · 2026</span>
+    </footer>
+  </main>
+
+  <dialog class="message-modal" id="message-modal" aria-labelledby="modal-title">
+    <button class="modal-close" id="modal-close" type="button" aria-label="Cerrar mensaje">×</button>
+    <span class="modal-heart" aria-hidden="true">♡</span><p class="eyebrow">UN MENSAJITO DE CHARI</p><h2 id="modal-title">Para vos</h2><p class="modal-message" id="modal-message"></p>
+    <button class="button button-outline" id="modal-done" type="button">GUARDARLO EN EL CORAZÓN ♡</button>
+  </dialog>
+</body>
+</html>
